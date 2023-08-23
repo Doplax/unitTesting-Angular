@@ -18,7 +18,7 @@ export class AppComponent {
     console.log(rta === 9)
 
     const rta2 = calculator.divide(1,4);
-    console.log(rta === 9);
+    console.log(rta2 === 9);
 
 
   };

@@ -3,12 +3,12 @@ import { Calculator } from './calculator';
 describe('Test for Calculator', () => {
 
   describe('Tests for multiply', () => {
-    it('should return a nine', () => {
-      //Arrange
+    it('#multiply should return a nine', () => {
+      // Arrange (Arreglar)
       const calculator = new Calculator();
-      //Act
+      //Act (Actuar)
       const rta = calculator.multiply(3,3);
-      //Assert
+      //Assert (Afirmar) // Aqui usaremnos los mashers
       expect(rta).toEqual(9);
     });
 
